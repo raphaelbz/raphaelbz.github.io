@@ -12,22 +12,18 @@ body {
     padding-top: 10px;
 }
 
-/* Base container style */
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    /* Right padding stays fixed; left padding interpolates between 20px and 400px */
     padding: 0 10px 0 calc(20px + 380 * ((100vw - 375px) / 825));
 }
 
-/* For extra-small devices ensure a safe minimum */
 @media (max-width: 375px) {
     .container {
         padding-left: 0px;
     }
 }
 
-/* For very wide screens keep it capped */
 @media (min-width: 1200px) {
     .container {
         padding-left: 400px;
@@ -37,7 +33,6 @@ body {
 h1, h2 {
     word-spacing: 1px;
     letter-spacing: 0.2px;
-    font-style: normal;
 }
 
 h1 {
@@ -67,9 +62,10 @@ li {
 a {
     margin-left: 10px;
     text-decoration: none;
+    color: #074e8c;
 }
 
-a, a:visited {
+a:visited {
     color: #074e8c;
 }
 
@@ -82,6 +78,5 @@ a:active {
 }
 
 a:focus {
-    border: none;
-    box-shadow: none;
+    outline: none;
 }
