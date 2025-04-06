@@ -17,7 +17,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     /* Right padding stays fixed; left padding interpolates between 20px and 400px */
-    padding: 0 20px 0 calc(20px + 380 * ((100vw - 375px) / 825));
+    padding: 0 10px 0 calc(20px + 380 * ((100vw - 375px) / 825));
 }
 
 /* For extra-small devices ensure a safe minimum */
