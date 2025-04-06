@@ -56,17 +56,17 @@ h1, h2 {
 h1 {
     font-size: 28.5px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 h2 {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 p, ul {
     font-weight: lighter;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 li {
@@ -102,7 +102,7 @@ a:focus {
 .contact {
     display: flex;
     align-items: center;
-    padding-bottom: 100px;
+    margin-bottom: 15px;
 }
 
 .social {
