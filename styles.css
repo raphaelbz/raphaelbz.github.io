@@ -71,15 +71,18 @@ a {
 
 a, a:visited {
     color: #074e8c;
-    text-decoration: none;
 }
 
 a:hover {
     color: #074e8c;
-    text-decoration: none;
 }
 
 a:active {
     color: red;
-    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
 }
