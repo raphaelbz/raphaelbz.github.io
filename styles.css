@@ -80,19 +80,19 @@ li {
 a {
     margin-left: 10px;
     text-decoration: none;
-    color: #074e8c;
+    color: black;
 }
 
 a:visited {
-    color: #074e8c;
+    color: black;
 }
 
 a:hover {
-    color: #074e8c;
+    color: black;
 }
 
 a:active {
-    color: red;
+    color: black;
 }
 
 a:focus {
@@ -109,4 +109,8 @@ a:focus {
     display: flex;
     margin-left: 5px;
     align-items: center;
+}
+
+input[type="checkbox"] {
+    accent-color: black;
 }
