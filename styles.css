@@ -46,6 +46,7 @@ body {
 .flex-list {
     display: flex;
     flex-direction: column;
+    padding-left: 0;
 }
 
 h1, h2 {
