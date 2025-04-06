@@ -23,7 +23,7 @@ body {
 /* For extra-small devices ensure a safe minimum */
 @media (max-width: 375px) {
     .container {
-        padding-left: 20px;
+        padding-left: 0px;
     }
 }
 
