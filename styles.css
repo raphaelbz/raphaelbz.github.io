@@ -102,6 +102,7 @@ a:focus {
 .contact {
     display: flex;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .social {
