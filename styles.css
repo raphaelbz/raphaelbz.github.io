@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Geist';
+    src: url('https://www.eddy.build/_next/static/media/ba015fad6dcf6784-s.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    font-family: 'Geist', sans-serif;
+    padding-top: 10px;
+}
+
+/* Base container style */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Right padding stays fixed; left padding interpolates between 20px and 400px */
+    padding: 0 20px 0 calc(20px + 380 * ((100vw - 375px) / 825));
+}
+
+/* For extra-small devices ensure a safe minimum */
+@media (max-width: 375px) {
+    .container {
+        padding-left: 20px;
+    }
+}
+
+/* For very wide screens keep it capped */
+@media (min-width: 1200px) {
+    .container {
+        padding-left: 400px;
+    }
+}
+
+h1, h2 {
+    word-spacing: 1px;
+    letter-spacing: 0.2px;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 28.5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+p, ul {
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.think {
+    padding-left: 0;
+}
+
+a {
+    margin-left: 15px;
+}
+
+a, a:visited {
+    color: #074e8c;
+}
+
+a:hover {
+    color: #074e8c;
+}
+
+a:active {
+    color: red;
+}
